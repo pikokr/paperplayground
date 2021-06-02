@@ -1,4 +1,4 @@
-package com.github.monun.sample.plugin
+package com.github.pikokr.playground.plugin
 
 import net.kyori.adventure.text.Component
 import net.minecraft.server.v1_16_R3.EntityLiving
@@ -16,7 +16,7 @@ import java.util.*
 /**
  * @author pikokr
  */
-class SamplePlugin : JavaPlugin(), Listener {
+class PlaygroundPlugin : JavaPlugin(), Listener {
     override fun onEnable() {
         server.pluginManager.registerEvents(this, this)
         server.scheduler.runTaskTimer(this, kotlinx.coroutines.Runnable {
@@ -27,12 +27,4 @@ class SamplePlugin : JavaPlugin(), Listener {
             }
         }, 0, 1)
     }
-
-//    @EventHandler
-//    fun test(e: EntityShootBowEvent) {
-//        e.entityType.also { if (it != EntityType.SKELETON) return }
-//        e.isCancelled = true
-//        val sk = (e.entity as CraftSkeleton)
-//        Bukkit.broadcast(Component.text("sans"))
-//    }
 }
