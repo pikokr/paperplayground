@@ -25,10 +25,10 @@ dependencies {
     implementation("com.github.monun:tap:3.6.0")
     implementation("com.github.monun:kommand:1.0.0")
 
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.0")
-    testImplementation("org.mockito:mockito-core:3.6.28")
-    testImplementation("org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT")
+//    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
+//    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.0")
+//    testImplementation("org.mockito:mockito-core:3.6.28")
+//    testImplementation("org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT")
 }
 
 /*//ProtocolLib
